@@ -1,0 +1,10 @@
+{
+	"redeploymentEnabled": true,
+	"name": "ms-itsm-api",
+	"minMuleVersion": "4.2.2",
+	"bundleDescriptorLoader": {
+		"attributes": {},
+		"id": "mule"
+	},
+	"secureProperties": ["mulevault.key", "keyPassword", "keyStorePassword", "client_id", "client_secret", "anypoint.platform.client_secret"]
+}
